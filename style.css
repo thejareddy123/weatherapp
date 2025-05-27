@@ -4,6 +4,7 @@ body {
   background: url(./pexels-jplenio-1118873.jpg);
   background-size: cover;
   color: white;
+  height: 100vh;
 }
 
 .weather-container {
