@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: url(./pexels-jplenio-1118873.jpg);
+  background-size: cover;
+  color: white;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+
+.weather-container {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 2rem;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  border: none;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  font-size: 16px;
+  outline: none;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+button {
+  background-color: #00c6ff;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #0072ff;
+}
+
+.weather-info {
+  margin-top: 1rem;
+}
+
+.weather-info h2 {
+  font-size: 28px;
+}
+
+.weather-info img {
+  width: 100px;
+  height: 100px;
+}
+.weather-container {
+  width: 90%;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 2rem;
+}
+@media (max-width: 600px) {
+  .weather-container {
+    padding: 1rem;
+    margin: 30px auto;
+  }
+
+  .weather-info h2 {
+    font-size: 22px;
+  }
+
+  input, button {
+    font-size: 14px;
+    padding: 8px;
+  }
+}
+
+but i like old one 
